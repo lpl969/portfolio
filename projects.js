@@ -34,7 +34,7 @@ window.PROJECTS = [
     "label": "射频感知 / RESEARCH",
     "art": "acoustic",
     "kicker": "SPHERICAL HARMONICS",
-    "caption": "AUDIO → SPATIAL REPRESENTATION",
+    "caption": "I/Q → SPATIAL REPRESENTATION",
     "description": "基于虚拟阵列与球谐变换的无人机射频指纹分类，结合多通道去噪与 CNN-Transformer。相关成果发表于 ICASSP 2026。",
     "tags": [
       "PyTorch",
@@ -43,7 +43,7 @@ window.PROJECTS = [
       "CNN-Transformer"
     ],
     "flow": [
-      "阵列音频",
+      "I/Q 信号",
       "球谐空间表示",
       "网络建模",
       "跟踪与分类"
@@ -64,7 +64,7 @@ window.PROJECTS = [
     "art": "agent",
     "kicker": "PLAN · RETRIEVE · GENERATE",
     "caption": "KNOWLEDGE INTO WORKFLOWS",
-    "description": "从论文检索与摘要到企业知识问答，将 LLM、工具调用和前后端交互组织为可扩展的应用工作流。",
+    "description": "面向论文检索与企业知识问答，使用 LLM、RAG、LangGraph 和前后端接口组织可扩展的 Agent 工作流原型。",
     "tags": [
       "FastAPI",
       "Vue 3",
@@ -80,7 +80,7 @@ window.PROJECTS = [
     "highlights": [
       "Paper Digest Assistant 提供论文订阅、候选筛选、摘要与邮件投递预览流程。",
       "Vue 3 前端展示处理结果，FastAPI 提供业务接口。",
-      "RAG 子项目预留记忆、工具与文档处理模块，并提供 Milvus、Redis、PostgreSQL 接入结构。"
+      "RAG 子项目包含文档处理、检索和生成流程，并预留 Milvus、Redis、PostgreSQL 接入结构。"
     ],
     "boundary": "论文助手与 RAG 位于同一个仓库，按一个项目计数。RAG README 将其定位为后端脚手架，不能等同于已上线的企业产品。",
     "evidence": "paper_email/README.md",
